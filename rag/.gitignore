@@ -12,3 +12,6 @@ wheels/
 
 # Streamlit config (contains secrets)
 .streamlit/
+
+# Ignore qdrant local volume
+data/

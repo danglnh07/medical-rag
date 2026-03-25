@@ -1,0 +1,13 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:dev
+    ports:
+      - "6333:6333"
+      - "6334:6334"
+    volumes:
+      - ./data/qdrant:/qdrant/storage:z
+    environment:
+      - QDRANT__LOG_LEVEL=ERROR
+
+volumes:
+  qdrant-data: {}
