@@ -1,0 +1,14 @@
+[project]
+name = "rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "docling>=2.81.0",
+    "instructor>=1.14.5",
+    "litellm>=1.82.6",
+    "prefect>=3.6.23",
+    "qdrant-client>=1.17.1",
+    "streamlit>=1.55.0",
+]
